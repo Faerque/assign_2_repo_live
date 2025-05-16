@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Hamburger",
+    "iconName": "humBurgerIcon",
+    "price": 260
+  },
+  {
+    "name": "Chicken Nuggets",
+    "iconName": "chicken",
+    "price": 195
+  },
+  {
+    "name": "Submarine Sandwich",
+    "iconName": "submarineSandwichIcon",
+    "price": 310
+  },
+  {
+    "name": "Pizza slices",
+    "iconName": "pizzaSliceIcon",
+    "price": 275,
+    "bgWrap": "bg-yellow-600"
+  },
+  {
+    "name": "Beef Patty",
+    "iconName": "beef",
+    "price": 335
+  },
+  {
+    "name": "Bread Basket",
+    "iconName": "bread",
+    "price": 120
+  },
+  {
+    "name": "Chicken Roast",
+    "iconName": "chickenRoast",
+    "price": 390
+  }
+]

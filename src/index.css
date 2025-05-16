@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --color-primary: #ff602c;
+  --color-background: #1d1d1d;
+  --color-navbg: rgba(89, 86, 86, 0.29);
+  --color-cardbg: rgba(89, 86, 86, 0.4);
+  --font-inter: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: var(--color-background);
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-background {
+  background-color: var(--color-background);
+}
+
+.bg-navbg {
+  background-color: var(--color-navbg);
+}
+
+.bg-cardbg {
+  background-color: var(--color-cardbg);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+select {
+  accent-color: var(--color-primary);
+  background-color: var(--color-background);
+  min-width: 100px;
+  border: var(--color-cardbg) 1px solid;
+  outline: none;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.items-container {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.reports-container {
+  max-height: 340px;
+  overflow-y: auto;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(89, 86, 86, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 96, 44, 0.5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 96, 44, 0.8);
+}
+
+@keyframes flash {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+.animate-flash {
+  animation: flash 0.6s ease-in-out;
+}
